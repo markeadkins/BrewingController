@@ -1,0 +1,39 @@
+/* CSS Document - Brewing Controller */
+
+/* Body and Container */
+/*-------------------------*/
+textarea {
+	overflow: auto;
+}
+	
+body {
+	font-family: arial, helvetica, sans-serif;
+		font-size: 120%;
+		color: #ccc;
+		line-height: 1.6em;
+	background-color: #000;
+}
+
+#container {
+	overflow: hidden;
+	width: 900px;
+	padding: 0px;
+	margin: 0 auto 0 auto;
+}
+
+#header {
+	width: 900px;
+	height: 150px;
+	background-color: #ccc;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.tempControls {
+	width: 300px;
+	text-align: center;
+	height: 300px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
