@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" Inherits="BrewingController_2.Default" %>
+﻿<%@ Page Language="C#" Inherits="BrewingController.Default" %>
 <!DOCTYPE html>
 <html>
 <head runat="server">
@@ -92,6 +92,27 @@
 						<asp:Label runat="server" id="Pump2Status" Text="Off" /><br />
 						<asp:Button runat="server" id="AllPumpsOff" Text="Turn Off All Pumps" OnClick="turnOffAllPumps" /><br />
 				</div><!---/#pumpButtons-->
+
+				<div id="probeAssignments">
+
+				    <h2>Boil Probe</h2>
+	             	<asp:DropDownList id="DropDownList1" runat="server" OnInit="MakeDropDownListOfTempProbes" />
+	             	<asp:Label id="Label1" runat="server" />
+	             	<br />
+
+	             	<h2>Mash Probe</h2>
+	             	<asp:DropDownList id="DropDownList2" runat="server" />
+	             	<asp:Label id="Label2" runat="server" />
+	             	<br />
+
+	             	<h2>HLT/RIMs Probe</h2>
+	             	<asp:DropDownList id="DropDownList3" runat="server" />
+	             	<asp:Label id="Label3" runat="server" />
+	             	<br /><br />
+
+	             	<asp:Button id="StartSessionButton" runat="server" Text="Start Session" OnClick="StartSessionButton_Click" />
+
+				</div><!---/#probeAssignments-->
 
 			</div><!---/#content_wrapper-->
 		</div><!--/#container-->

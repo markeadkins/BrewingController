@@ -61,6 +61,7 @@
     <Content Include="packages.config" />
     <Content Include="Default.aspx" />
     <Content Include="css\stylesheet.css" />
+    <Content Include="Home.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -69,10 +70,18 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Components.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />
     <Folder Include="css\" />
+    <Folder Include="Components\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="images\header_logo.jpeg" />

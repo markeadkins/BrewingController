@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewingController_2", "BrewingController_2\BrewingController_2.csproj", "{1689D20C-7D57-40F0-953D-576FF8FEC5E6}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewingController", "BrewingController.csproj", "{1689D20C-7D57-40F0-953D-576FF8FEC5E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
